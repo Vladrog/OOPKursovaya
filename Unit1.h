@@ -52,7 +52,7 @@ private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
     void  TForm1::WriteToTable(TListView *LV);
-    Potensial *Test;
+    Potensial *Test; // глобальная пременная 
 };
 //---------------------------------------------------------------------------
 extern PACKAGE TForm1 *Form1;
